@@ -2,6 +2,23 @@
 
 A script to download the latest [Project Sonar](https://www.rapid7.com/research/project-sonar/) dataset. Some configuration required.
 
+## Usage
+
+1. Install [dependencies](https://github.com/int0x80/getsonar#dependencies).
+2. Clone this repo.
+
+    ```D
+    git clone --depth=1 https://github.com/int0x80/getsonar.git
+    cd getsonar
+    ```
+
+3. [Configure](https://github.com/int0x80/getsonar#configuration) the `API_KEY` and `OUTPUT_DIR`.
+4. Run
+
+    ```D
+    ./getsonar.sh
+    ```
+
 ## Dependencies
 
 Installing dependencies with `apt`.
